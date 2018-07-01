@@ -10,7 +10,7 @@ import android.widget.Toast;
  * Created by John on 09/12/2017.
  */
 
-public class msg {
+public class Msg {
 
 
     //
@@ -26,6 +26,7 @@ public class msg {
                 texto,
                 Toast.LENGTH_LONG
         ).show();
+
     }
 
 
