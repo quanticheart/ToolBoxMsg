@@ -1,1 +1,1 @@
-include ':app', ':toolboxmsg', ':msg'
+include ':app', ':toolboxmsg', ':toolboxapp'

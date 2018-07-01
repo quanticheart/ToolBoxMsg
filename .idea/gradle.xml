@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/msg" />
+            <option value="$PROJECT_DIR$/toolboxapp" />
             <option value="$PROJECT_DIR$/toolboxmsg" />
           </set>
         </option>
