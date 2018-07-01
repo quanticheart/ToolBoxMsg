@@ -10,7 +10,7 @@ import android.widget.Toast;
  * Created by John on 09/12/2017.
  */
 
-public class Msg {
+public class ShowMsg {
 
 
     //
