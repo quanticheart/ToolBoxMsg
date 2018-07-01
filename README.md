@@ -6,13 +6,13 @@ function for msgs
 
 add jitpack.io in allprojects, in project gradle
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven { url 'https://jitpack.io' }
+    allprojects {
+        repositories {
+            google()
+            jcenter()
+            maven { url 'https://jitpack.io' }
+        }
     }
-}
 
 ### Prerequisites
 
@@ -27,13 +27,15 @@ allprojects {
 
  implement lib in yout module gradle
  
+    implementation 'com.github.master-killercode:tb-msg:1.0.1'
+
  implementation 'com.github.master-killercode:tb-msg:1.0.1'
  
  for module gradle incompatible, use:
- 
- implementation ('com.github.master-killercode:tb-msg:1.0.1'){
-        exclude group: "com.android.support"
- }
+
+    implementation ('com.github.master-killercode:tb-msg:1.0.1'){
+           exclude group: "com.android.support"
+    }
 
 ## Deployment
 
